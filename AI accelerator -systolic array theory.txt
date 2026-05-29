@@ -1,0 +1,18 @@
+systolic array:- the array forms by conntecting the multiple MAC untis.
+->data flows rhythmically through hardware.
+-> used in TPU's(tensor processing unit).
+components:-
+->4 MAC units
+->interconnection
+->clock synchronization
+->data flow logic
+why systolic array are important:-
+->parallel processing(many opration at a time).
+->efficient matrix multiplication in AI models.
+         ex:face recognition:
+            after recognition of face.face is converted into matrix numbers.
+            and weight matrix is already learned and stored in AI model.
+            then matric multilication is done.next compare the result matric and unlock matric.
+            if it's equal-unlock or if not "not recognized correct face".
+dataflow architecture:-
+->how input,weight,and output move and reused inside AI accelerator hardware to maxmize speed and efficiency.
